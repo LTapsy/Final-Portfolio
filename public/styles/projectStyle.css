@@ -46,6 +46,16 @@ section{
     align-items: center;
 }
 
+section{
+    padding:5vw;
+    /* height:80vh; */
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
 .sectionHeading{
     font-size:4vmax;
     text-align:center;
@@ -60,7 +70,7 @@ button{
     border:2px solid white;
     background:transparent;
     font-weight: bold;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     transition: 0.4s;
     margin:2vw 2vw 2vw 0;
 }
@@ -74,14 +84,19 @@ button:hover{
 /* --------------Planetarium---------------------- */
 
 section:nth-child(1){
-    background:black;
+    background:rgb(41, 41, 41);
     height:100%;
-    padding:15vw 0 5vw 0;
     overflow: hidden;
     position:relative;
 }
 
 .projectHeading{
+    color:white;
+    /* text-shadow: 0 0 10px black; */
+}
+
+.projectHeading{
+    padding:5vw;
     color:white;
     text-shadow: 0 0 10px black;
 }
@@ -99,7 +114,7 @@ section:nth-child(1){
     background:url();
     background-size:cover;
     background-repeat:no-repeat;
-    margin-bottom:10vw;
+    margin:-10vw 0 10vw 0;
 }
 
 /* fix this on mq, maybe make the planet a background instead?*/
@@ -112,13 +127,13 @@ section:nth-child(1){
 }
 
 .projectTitle{
-    text-shadow: 0 0 10px black;
+    /* text-shadow: 0 0 10px black; */
     font-size:3vmax;
 }
 
 .projectDescription{
     font-size:2vmax;
-    text-shadow: 0 0 10px black;
+    /* text-shadow: 0 0 10px black; */
 }
 
 .buttonContainer{
@@ -132,7 +147,7 @@ section:nth-child(1){
 .projectImage{
     width:60vmax;
     height:60vmax;
-    box-shadow: -20px -20px 50px 10px #000 inset,-5px -5px 50px 10px rgba(255, 255, 255, 0.185);
+    box-shadow: -20px -20px 50px 10px #000 inset,-5px -5px 50px 10px rgba(0, 0, 0, 0.8);
     background:url('../images/Planet/earth.jpg');
     background-size:cover;
     border-radius:50%;
@@ -160,6 +175,7 @@ section:nth-child(1){
 
 
 .projectImage2{
+    background:transparent;
     padding:2vw 10vw 2vw 10vw;
     z-index:1;
     margin:-40vh 0 0 0;
@@ -230,6 +246,14 @@ footer p{
 
 @media only screen and (max-width: 700px) {
 
+    section:nth-child(1){
+        background:black;
+        height:100%;
+        overflow: hidden;
+        position:relative;
+    }
+
+
     section{
         padding:5vw;
         height:80vh;
@@ -254,7 +278,21 @@ footer p{
         text-shadow: 0 0 10px black;
     }
     
-    .projectPlanet{
+    .projectImage{
+        width:60vmax;
+        height:60vmax;
+        box-shadow: -20px -20px 50px 10px #000 inset,-5px -5px 50px 10px rgba(68, 68, 68, 0.8);
+        background:url('../images/Planet/earth.jpg');
+        background-size:cover;
+        border-radius:50%;
+        position: absolute;
+        z-index:0;
+        left:60vw;
+        overflow: hidden;
+        animation:planetSpinCounterClockwise 45s linear infinite;
+    }
+    @keyframes planetSpinCounterClockwise{
+        100%{background-position: 100%;}
     }
     
     .projectImage2{
