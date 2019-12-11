@@ -218,12 +218,12 @@ footer ul {
 }
 
 footer ul li {
-    margin:5vh 1vw 2vh 1vw;
+    margin:2vw 1vw 0vw 1vw;
 }
 
 
 footer p{
-    padding:2vh 0 5vh 0;
+    padding:2vh 0 2vh 0;
 }
 
 
@@ -290,5 +290,32 @@ footer p{
         padding:10vw 5vw 3vw 5vw;
         width:100%;
         z-index:1;
+    }
+
+     
+    footer{
+        background:black;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer ul {
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer ul li {
+        margin:2vw 1vw 0vw 1vw;
+        transform: scale(0.5);
+    }
+    
+    
+    footer p{
+        padding:2vw 0 2vw 0;
     }
 }

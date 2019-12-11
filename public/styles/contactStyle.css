@@ -28,7 +28,7 @@ main{
 }
 
 section{
-    height:80vh;
+    /* height:; */
     width:100%;
     display:flex;
     flex-direction: column;
@@ -47,22 +47,16 @@ section{
 /* svg overflow hidden */
 
 #contact{
-    padding:10vw 15vw 20vh 15vw;
+    padding:5vw 15vw 10vw 15vw;
 }
 
 .contactHeading{
-    margin:0 0 5vh 0;
+    margin:0 0 5vw 0;
     font-size:4vmax;
     color:white;
     text-align:center;
 }
 
-.contactHeading{
-    margin:0 0 5vh 0;
-    font-size:4vmax;
-    color:white;
-    text-align:center;
-}
 
 form{
     border-radius:20px;
@@ -76,7 +70,7 @@ input,label,textarea,button{
     border-radius: 10px;
     color:white;
     resize:none;
-    margin:1vh 2vw;
+    margin:1vw 2vw;
     font-size:1.5vmax;
 }
 
@@ -89,14 +83,14 @@ input{
 textarea{
     border:2px solid lightgray;
     width:30vmax;
-    height:30vh;
+    height:20vw;
     padding:.5vw;
 }
 
 button{
     background:transparent;
     border:2px solid white;
-    padding:2vh 0;
+    padding:1vw 0;
     color:white;
     transition:0.4s;
 }
@@ -105,7 +99,7 @@ button:hover{
     /* background:linear-gradient(skyblue,dodgerblue); */
     border:2px solid skyblue;
     color:skyblue;
-    padding:2vh 0;
+    padding:1vw 0;
     transition:0.4s;
 }
 
@@ -128,12 +122,12 @@ footer ul {
 }
 
 footer ul li {
-    margin:5vh 1vw 2vh 1vw;
+    margin:2vw 1vw 0vw 1vw;
 }
 
 
 footer p{
-    padding:2vh 0 5vh 0;
+    padding:2vh 0 2vh 0;
 }
 
 @media only screen and (max-width: 600px) {  
@@ -199,5 +193,32 @@ footer p{
         color:skyblue;
         padding:2vh 0;
         transition:0.4s;
+    }
+
+     
+    footer{
+        background:black;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer ul {
+        width:100%;
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer ul li {
+        margin:2vw 1vw 0vw 1vw;
+        transform: scale(0.5);
+    }
+    
+    
+    footer p{
+        padding:2vw 0 2vw 0;
     }
 }
