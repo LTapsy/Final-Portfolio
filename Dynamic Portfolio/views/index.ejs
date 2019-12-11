@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lord Tapulao</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link href="styles/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700,800,900&display=swap" rel="stylesheet">
+    <script src="JavaScript/parallax.js"></script>
+</head>
+<body class="bodyContainer">
+    <header>
+        <h1 class="headerName">LORD TAPULAO</h1>
+        <p class="jobTitle">Web Developer / Designer</p>
+        <ul class="socialMediaListContainer">
+            <li class="socialMediaList socialMediaList1"><i class="socialMediaIcons fab fa-github fa-2x"></i></li>
+            <li class="socialMediaList socialMediaList2"><i class="socialMediaIcons fab fa-linkedin-in fa-2x"></i></li>
+            <li class="socialMediaList socialMediaList3"><i class="socialMediaIcons far fa-envelope fa-2x"></i></li>
+            <li class="socialMediaList socialMediaList4"><i class="socialMediaIcons fab fa-instagram fa-2x"></i></li>
+            <li class="socialMediaList socialMediaList5"><i class="socialMediaIcons fab fa-facebook fa-2x"></i></li>
+        </ul>
+        <nav class="navigation">
+            <ul class="navigationButtonListContainer">
+                <li class="navigationButtonList">
+                    <a href="/projects">
+                        <button class="projectBtn" target="_blank">
+                                PROJECTS
+                        </button> 
+                    </a>
+                </li>
+                <li class="navigationButtonList">
+                    <a href="/contact">
+                        <button class="contactBtn" target="_blank">
+                                CONTACT
+                        </button> 
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <a href="#Main"><i class="arrowDown fas fa-chevron-down fa-2x"></i></a>
+    </header>
+    <main>
+        <section id="Main">
+            <h1 class="frontEndFocused sectionHeading">FRONT END FOCUSED DEVELOPER</h1>
+            <h2 class="experience">WITH FULL STACK EXPERIENCE</h2>
+            <ul class="skillSetContainer">
+                <li id="skillSet1" ><img class="skillSet" src="images/html.png" alt="" srcset=""></li>
+                <li id="skillSet2" ><img class="skillSet" src="images/css.png" alt="" srcset=""></li>
+                <li id="skillSet3" ><img class="skillSet" src="images/js.png" alt="" srcset=""></li>
+                <li id="skillSet4" ><img class="skillSet" src="images/local.png" alt="" srcset=""></li>
+                <li id="skillSet5" ><img class="skillSet" src="images/jekyll.png" alt="" srcset=""></li>
+                <li id="skillSet6" ><img class="skillSet" src="images/mongodb.png" alt="" srcset=""></li>
+                <li id="skillSet7" ><img class="skillSet" src="images/netlify.png" alt="" srcset=""></li>
+                <li id="skillSet8" ><img class="skillSet" src="images/node.png" alt="" srcset=""></li>
+                <li id="skillSet9" ><img class="skillSet" src="images/wordpress.png" alt="" srcset=""></li>
+                <li id="skillSet10"><img class="skillSet"  src="images/aws.png" alt="" srcset=""></li>
+            </ul>
+            <p class="quote">"Breaking out of established patterns to look at things in a different way."</p>
+        </section>
+        <section id="resume">
+            <div class="gameBox">
+                <h1 class="sectionHeading">Jungle Adventures</h1>
+                <p class="gameInfo">An Interactive Resume using HTML5, CSS3 and JavaScript.<br/>Combining code and creativity!</p>
+                <a href="/game" target="_blank">
+                    <button class="startGame" >
+                        PLAY NOW!
+                    </button>
+                </a>
+                <a href=" ">
+                    <button class="gameSourceCode">
+                        SOURCE CODE
+                    </button>
+                </a>
+                <!--Make this position relative then make a absolute game
+                 that fades in and fades out. Use the Weeb character you
+                created in your laptop. and add a start button. at changes
+                this section into a game!-->
+            </div>
+            <div class="container">
+                <ul id="scene">
+                    <li class="layer" data-depth="0.20">
+                        <img class="parallaxBackTrees" src="PNG/backTrees.png" alt="">
+                    </li>
+                    <li class="layer" data-depth="0.40">
+                        <img class="parallaxFrontTrees" src="PNG/frontTrees.png" alt="">
+                    </li>
+                    <li class="layer" data-depth="0.60">
+                        <img class="parallaxBackPlants" src="PNG/backPlants.png" alt="">
+                    </li>
+                    <li class="layer" data-depth="0.80">
+                        <img class="parallaxGround" src="PNG/ground.png" alt="">
+                    </li>
+                    <li class="layer" data-depth="1">
+                        <img class="parallaxShadow" src="PNG/shadow.png" alt="">
+                    </li>
+                    <li class="layer" data-depth="1">
+                        <img class="parallaxCharacter character" src="PNG/character.png" alt="">
+                    </li>
+                    <li class="layer" data-depth="1.20">
+                        <img class="parallaxFrontPlants" src="PNG/frontPlants.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><i class="socialMediaIcons fab fa-github fa-2x"></i></li>
+            <li><i class="socialMediaIcons fab fa-linkedin-in fa-2x"></i></li>
+            <li><i class="socialMediaIcons far fa-envelope fa-2x"></i></li>
+            <li><i class="socialMediaIcons fab fa-instagram fa-2x"></i></li>
+            <li><i class="socialMediaIcons fab fa-facebook fa-2x"></i></li>
+        </ul>
+        <p>&copy Lord Tapulao 2020</p>
+    </footer>
+</body>
+<script src="JavaScript/Animation.js"></script>
+<script>
+	var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
+</html>

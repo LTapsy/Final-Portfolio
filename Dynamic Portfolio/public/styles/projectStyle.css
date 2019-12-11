@@ -1,0 +1,279 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    color:snow;
+    cursor:default;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background:url(AI/boxes.svg), linear-gradient(45deg,royalblue,goldenrod 70%);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    /* fix this on mq. it does not look good on mobile   */
+}
+/*@@@@@@@@@@@@@@@@ Font Awesome Icons @@@@@@@@@@@@@@@@@@@@@@*/
+
+
+.socialMediaIcons{
+    transition:0.2s;
+}
+
+.socialMediaIcons:hover{
+    transform: scale(1.1) rotate(-5deg);
+    transition:0.2s;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+section{
+    height:80vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHeading{
+    font-size:4vmax;
+    text-align:center;
+}
+
+/*@@@@@@@@@@@@@@@@ PROJECTS @@@@@@@@@@@@@@@@@@@@@@*/
+
+
+button{
+    width:18vmax;
+    height:6vmax;
+    border:2px solid white;
+    background:transparent;
+    font-weight: bold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+    margin:2vw 2vw 2vw 0;
+}
+
+button:hover{
+    color:black;
+    background:white;
+    transition: 0.4s;
+}
+
+/* --------------Planetarium---------------------- */
+
+section:nth-child(1){
+    background:black;
+    height:100%;
+    padding:15vw 0 5vw 0;
+    overflow: hidden;
+    position:relative;
+}
+
+.projectHeading{
+    color:white;
+    text-shadow: 0 0 10px black;
+}
+
+.project{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projectPlanet{
+    background:url();
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin-bottom:10vw;
+}
+
+/* fix this on mq, maybe make the planet a background instead?*/
+
+
+.projectInfo{
+    padding:5vw;
+    width:100%;
+    z-index:1;
+}
+
+.projectTitle{
+    text-shadow: 0 0 10px black;
+    font-size:3vmax;
+}
+
+.projectDescription{
+    font-size:2vmax;
+    text-shadow: 0 0 10px black;
+}
+
+.buttonContainer{
+    margin-top:2vh;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+
+.projectImage{
+    width:60vmax;
+    height:60vmax;
+    box-shadow: -20px -20px 50px 10px #000 inset,-5px -5px 50px 10px rgba(255, 255, 255, 0.185);
+    background:url('../images/Planet/earth.jpg');
+    background-size:cover;
+    border-radius:50%;
+    position: absolute;
+    z-index:0;
+    left:60vw;
+    overflow: hidden;
+    animation:planetSpinCounterClockwise 45s linear infinite;
+}
+@keyframes planetSpinCounterClockwise{
+    100%{background-position: 100%;}
+}
+
+/* --------------other projects---------------------- */
+
+.otherProject{
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projectImage2{
+    padding:2vw 10vw 2vw 10vw;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.5);
+    z-index:1;
+    margin:0 0 0 0;
+    width:120vw;
+    display:flex;
+    flex-wrap: wrap;
+    transform:rotate(-3deg) skew(30deg)  translateX(10vw);
+}
+
+.projectImage2 img{
+    margin:1vw;
+    width:33vmax;
+    height:unset;
+    border-radius:2vmax;
+    transition:0.4s;
+    box-shadow: -5px 5px 10px black;
+}
+
+.projectImage2 img:hover{
+    transform:translateY(0px) translateX(5vw) rotate(0deg) skew(-30deg);
+    transition:0.4s;
+}
+
+.projectCardImage1{z-index:6;}
+.projectCardImage2{z-index:5;}
+.projectCardImage3{z-index:4;}
+.projectCardImage4{z-index:3;}
+.projectCardImage5{z-index:2;}
+.projectCardImage6{z-index:1;}
+
+/*@@@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@@@@@@@@*/
+
+footer{
+    background:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    margin:5vh 1vw 2vh 1vw;
+}
+
+
+footer p{
+    padding:2vh 0 5vh 0;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+    section{
+        padding:5vw;
+        height:80vh;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    
+    .projectPlanet{
+        background:url();
+        background-size:cover;
+        background-repeat:no-repeat;
+        margin-bottom:10vw;
+        height:100%;
+    }
+    
+    .projectHeading{
+        padding:5vw;
+        color:white;
+        text-shadow: 0 0 10px black;
+    }
+    
+    .projectPlanet{
+    }
+    
+    .projectImage2{
+        background:linear-gradient(rgb(34, 34, 34),black);
+        z-index:1;
+        margin:0 0 0 0;
+        width:100vw;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        transform:rotate(0deg) skew(0deg);
+    }
+
+    .projectImage2 img{
+        margin:5vw 1vw;
+        width:85%;
+        border-radius:2vmax;
+        transition:0.4s;
+        box-shadow: -5px 5px 10px black;
+    }
+
+    .projectImage2 img:hover{
+        transform:translateY(0px) translateX(0vw) rotate(0deg) skew(0deg);
+        transition:0.4s;
+    }
+    .projectInfo{
+        padding:10vw 5vw 3vw 5vw;
+        width:100%;
+        z-index:1;
+    }
+}

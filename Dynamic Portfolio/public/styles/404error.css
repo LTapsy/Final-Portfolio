@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    display:grid;
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+title{
+    visibility:hidden;
+}
+
+body{
+    background-image:radial-gradient( rgb(165, 165, 165), rgb(15, 15, 15)),url(../misc/car.jpg);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1{
+    text-align:center;
+    margin-top:20%;
+    font-size:4em;
+}

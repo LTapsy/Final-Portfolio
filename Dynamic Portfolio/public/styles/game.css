@@ -1,0 +1,136 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height:100vh;
+    width:80vw;
+    background-image:linear-gradient(rgba(0, 139, 139, 0.623),black);
+    background-repeat: no-repeat;
+    overflow:hidden;
+    position: relative;
+}
+
+.backTrees{
+    position:absolute;
+    height:100vh;
+    width:unset;
+    animation:animateBackTrees 10s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes animateBackTrees{
+    100%{transform:translateX(-50.5%)}
+}
+
+.frontTrees{
+    position:absolute;
+    height:100vh;
+    width:unset;
+    animation:animateFrontTrees 8s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes animateFrontTrees{
+    100%{transform:translateX(-50.5%)}
+}
+
+.backPlants{
+    position:absolute;
+    height:100vh;
+    width:unset;
+    animation:animateBackPlants 6s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes animateBackPlants{
+    100%{transform:translateX(-50.5%)}
+}
+
+.ground{
+    position:absolute;
+    height:100vh;
+    width:unset;
+    animation:animateGround 4s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes animateGround{
+    100%{transform:translateX(-50.5%)}
+}
+
+.frontPlants{
+    position:absolute;
+    height:100vh;
+    width:unset;
+    animation:animateFrontPlants 2s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes animateFrontPlants{
+    100%{transform:translateX(-50.5%)}
+}
+
+.box {
+    transform:translateX(10vw);
+    bottom:330px;
+    position: absolute; 
+}
+
+.characterContainer{
+    transform:scale(0.9vw);
+    position: relative;
+    position: absolute;
+    width:190px;
+}
+
+.shadow{
+    top:220px;
+    width:180px;
+    height:50px;
+    border-radius: 50%;
+    background:black;
+    position:absolute;
+    opacity:0.3;
+    transition: 0.6s;
+}
+
+.shadowSmall{
+    top:220px;
+    transform:scale(0.3);
+    width:180px;
+    height:50px;
+    border-radius: 50%;
+    background:black;
+    position:absolute;
+    opacity:0.0;
+    transition:0.6s;
+}
+
+.torso{
+    transform: translateY(-150px) translateX(-60px) scale(0.5);
+    position:absolute;
+}
+
+.rightLeg{
+    transform: translateY(100px) translateX(5px) scale(0.5);
+    position:absolute;
+}
+
+.leftLeg{
+    transform: translateY(100px) translateX(65px) scale(0.5);
+    position:absolute;
+}
+
+.rightArm{
+    transform: translateY(5px) translateX(5px) scale(0.5);
+    position:absolute;
+}
+
+.leftArm{
+    transform: translateY(15px) translateX(85px) scale(0.5);
+    position:absolute;
+}

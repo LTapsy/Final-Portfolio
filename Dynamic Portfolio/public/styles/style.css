@@ -1,0 +1,339 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    color:snow;
+    cursor:default;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    background:url(../AI/boxes.svg), linear-gradient(45deg,royalblue,goldenrod 70%);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+    /* fix this on mq. it does not look good on mobile   */
+}
+/*@@@@@@@@@@@@@@@@ Font Awesome Icons @@@@@@@@@@@@@@@@@@@@@@*/
+
+
+.socialMediaIcons{
+    transition:0.2s;
+}
+
+.socialMediaIcons:hover{
+    transform: scale(1.1) rotate(-5deg);
+    transition:0.2s;
+}
+
+/*@@@@@@@@@@@@@@@@ HEADER @@@@@@@@@@@@@@@@@@@@@@*/
+
+
+header{
+    width:100%;
+    height:100%;
+    padding:10vw 0 0 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerName{
+    margin:10vh 2vw 2vh 2vw;
+    font-size:10vmin;
+}
+
+.jobTitle{
+    font-size:5vmin;
+}
+
+.socialMediaListContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.socialMediaList{
+    margin:2vh 1vw 5vh 1vw;
+}
+
+.navigationButtonListContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.navigationButtonList{
+    margin:2vh 1vw 0 1vw; 
+}
+
+button{
+    width:18vmax;
+    height:6vmax;
+    border:2px solid white;
+    background:transparent;
+    font-weight: bold;
+    transition: 0.4s;
+}
+
+button:hover{
+    color:black;
+    background:white;
+    transition: 0.4s;
+}
+
+.arrowDown{
+    margin-top:15vh;
+    transition:0.4s;
+}
+
+.arrowDown:hover{
+    color:dodgerblue;
+}
+
+/*@@@@@@@@@@@@@@@@ MAIN @@@@@@@@@@@@@@@@@@@@@@*/
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+section{
+    height:80vh;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionHeading{
+    font-size:4vmax;
+    text-align:center;
+    margin-bottom:5vmin;
+}
+
+section:nth-child(1){
+    background:url(../SVG/Asset\ 1.svg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    padding:25vh 0 0 0;
+}
+
+.frontEndFocused{
+    padding:0 10vw;
+    color:black;
+}
+
+.experience{
+    padding:0 10vw;
+    font-size:3vmax;
+    color:black;
+    text-align:center;
+}
+
+.skillSetContainer{
+    padding:0 10vw;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillSet{
+    width:5vmax;
+    height:5vmax;
+    margin:5vw 1vw;
+    transition:0.2s;
+}
+
+.skillSet:hover{
+    transform: scale(1.2) rotate(-2deg);
+    transition:0.2s;
+    filter:drop-shadow(5px 5px 2px lightgray);
+}
+
+.quote{
+    padding:0 10vw;
+    margin-bottom:10vh;
+    color:black;
+    text-align:center;
+}
+
+/*@@@@@@@@@@@@@@@@ GAME @@@@@@@@@@@@@@@@@@@@@@*/
+
+section:nth-child(2){
+    background:rgba(0, 0, 0, 0.800);
+    border-top:20px solid black;
+    border-bottom:20px solid black;
+    box-shadow: 0px 0px 30px black;
+    height:90vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition:0.4s;
+}
+
+section:nth-child(2):hover{
+    background:transparent;
+    transition:0.4s;
+}
+
+.gameBox{
+    position:absolute;
+    z-index:1;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameHeading{
+    color:snow;
+}
+
+.gameInfo{
+    text-align:center;
+    color:snow;
+    margin-bottom:5vmin;
+}
+.startGame{
+    background:seagreen;
+    border:2px solid seagreen;
+    margin-bottom:1vw;
+}
+
+.startGame:hover , .gameSourceCode:hover{
+    border:2px solid white;
+    color:seagreen;
+}
+
+
+.container
+{
+    background:linear-gradient(darkcyan 25%, black 75%);
+    padding:0;
+    z-index: -1;
+	width: 100%;
+	height: 120%;
+	overflow: hidden;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+#scene{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.layer img{
+    width:100vw;
+    transform:scaleX(1.2) scaleY(1) translateY(-5vh);
+}
+
+
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+
+/*@@@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@@@@@@@@*/
+
+footer{
+    background:black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li {
+    margin:5vh 1vw 2vh 1vw;
+}
+
+
+footer p{
+    padding:2vh 0 5vh 0;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    body{}
+
+    header{
+        background:url(../AI/boxes.svg), linear-gradient(45deg,royalblue,goldenrod 70%);
+        background-blend-mode: color-burn;
+        background-position: center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        width:100%;
+        height:100vh;
+        padding:10vw 0 0vw 0;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .arrowDown{
+        margin-top:25vh;
+        transition:0.4s;
+    }
+
+    section:nth-child(1){
+        background:snow;
+        padding:10vh 0 0 0;
+    }
+
+    section:nth-child(2){
+        background:rgba(0, 0, 0, 0.500);
+        border-top:20px solid black;
+        border-bottom:20px solid black;
+        box-shadow: 0px 0px 30px black;
+        height:100vh;
+        background-size:cover;
+        background-repeat: no-repeat;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        transition:0.4s;
+    }
+
+    .layer img{
+        width:unset;
+        height:100%;
+        transform:translateY(-10vh) translateX(-55vw);
+        /* delete width on media querie and change the height to 100%*/
+    }
+
+    section:nth-child(2):hover{
+        background:rgba(0, 0, 0, 0.500);
+        transition:0.4s;
+    }
+}
