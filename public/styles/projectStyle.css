@@ -262,7 +262,7 @@ footer p{
     .projectImage2 img{
         margin:5vw 1vw;
         width:85%;
-        height:unset;
+        height:50vw;
         border-radius:2vmax;
         transition:0.4s;
         box-shadow: -5px 5px 10px black;
