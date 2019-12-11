@@ -163,11 +163,15 @@ section:nth-child(1){
     padding:2vw 10vw 2vw 10vw;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.5);
     z-index:1;
-    margin:0 0 0 0;
+    margin:-40vh 0 0 0;
     width:120vw;
     display:flex;
     flex-wrap: wrap;
     transform:rotate(-3deg) skew(30deg)  translateX(10vw);
+}
+
+.blank{
+    visibility: hidden;
 }
 
 .projectImage2 img{
@@ -266,6 +270,11 @@ footer p{
         border-radius:2vmax;
         transition:0.4s;
         box-shadow: -5px 5px 10px black;
+    }
+
+    .blank{
+        visibility: hidden;
+        position: absolute;
     }
 
     .projectImage2 img:hover{
