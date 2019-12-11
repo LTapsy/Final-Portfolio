@@ -127,7 +127,7 @@ section:nth-child(1){
     height:50vw;
     background-size:cover;
     background-repeat:no-repeat;
-    padding:25vh 0 0 0;
+    padding:10vw 0 0 0;
 }
 
 .frontEndFocused{
@@ -166,7 +166,7 @@ section:nth-child(1){
 
 .quote{
     padding:0 10vw;
-    margin-bottom:10vh;
+    margin-bottom:5vw;
     color:black;
     text-align:center;
 }
@@ -346,7 +346,7 @@ footer p{
 
     section:nth-child(1){
         background:snow;
-        padding:30vw 0;
+        padding:35vw 0 50vw 0;
         height:100%;
     }
 
