@@ -161,7 +161,6 @@ section:nth-child(1){
 
 .projectImage2{
     padding:2vw 10vw 2vw 10vw;
-    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.5);
     z-index:1;
     margin:-40vh 0 0 0;
     width:120vw;
