@@ -187,12 +187,18 @@ section:nth-child(1){
     transition:0.4s;
 }
 
-.projectCardImage1{z-index:6;}
-.projectCardImage2{z-index:5;}
-.projectCardImage3{z-index:4;}
-.projectCardImage4{z-index:3;}
-.projectCardImage5{z-index:2;}
-.projectCardImage6{z-index:1;}
+.projectCardImage2{z-index:12;}
+.projectCardImage3{z-index:11;}
+.projectCardImage4{z-index:10;}
+.projectCardImage5{z-index:9;}
+.projectCardImage6{z-index:8;}
+.projectCardImage7{z-index:7;}
+.projectCardImage8{z-index:6;}
+.projectCardImage9{z-index:5;}
+.projectCardImage10{z-index:4;}
+.projectCardImage11{z-index:3;}
+.projectCardImage12{z-index:2;}
+.projectCardImage13{z-index:1;}
 
 /*@@@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@@@@@@@@*/
 
