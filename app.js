@@ -23,8 +23,6 @@ app.get('/:page', function(request, response){
   response.render(request.params.page);
 })
 
-
-
 app.use(express.static(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'assets')));
 
