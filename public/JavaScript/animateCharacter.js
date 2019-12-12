@@ -11,6 +11,24 @@ const backPlants = document.querySelector('.backPlants');
 const frontTrees = document.querySelector('.frontTrees');
 const backTrees = document.querySelector('.backTrees');
 
+const papajohns = document.querySelector('papajohns');
+const mcd = document.querySelector('mcd');
+const lubecity = document.querySelector('lubecity');
+const wanted = document.querySelector('wanted');
+const decalCityBoard = document.querySelector('decalCityBoard');
+const education = document.querySelector('education');
+const skills2 = document.querySelector('skills2');
+const skills1 = document.querySelector('skills1');
+const skills = document.querySelector('skills');
+const oil = document.querySelector('oil');
+const crate2 = document.querySelector('crate2');
+const crate1 = document.querySelector('crate1');
+const chicken = document.querySelector('chicken');
+const educationBoard = document.querySelector('educationBoard');
+const aboutBoard = document.querySelector('aboutBoard');
+const workBoard = document.querySelector('workBoard');
+const frontEndBoard = document.querySelector('.frontEndBoard');
+
 var direction;
 var animate = "idle";
 var jump = "false";

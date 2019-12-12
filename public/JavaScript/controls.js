@@ -4,6 +4,7 @@ $(document).keydown(function(e) {
     if (e.which == '39') { //right key
         direction = "right";
         animate="walk";
+        ItemsMoveRight() 
         moveRight();
         faceRight();
     }
@@ -114,6 +115,7 @@ function moveLeft(){
 
 }
 function moveRight(){
+    frontEndBoard.style = "animation-play-state: running;";
     ground.style = "animation-play-state: running;";
     frontPlants.style = "animation-play-state: running;";
     frontTrees.style = "animation-play-state: running;";
@@ -122,9 +124,18 @@ function moveRight(){
 }
 
 function movementStop(){
+    frontEndBoard.style = "animation-play-state: paused;";
     ground.style = "animation-play-state: paused;";
     frontPlants.style = "animation-play-state: paused;";
     frontTrees.style = "animation-play-state: paused;";
     backPlants.style = "animation-play-state: paused;";
     backTrees.style = "animation-play-state: paused;";
+}
+
+
+function ItemsMoveRight(){
+    // $(".frontEndBoard").finish().animate({ 
+    //     left: '-=15'
+    // });
+    // fron.style = "animation-play-state: running;";
 }

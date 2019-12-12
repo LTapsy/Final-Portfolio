@@ -19,10 +19,81 @@ section{
     position: relative;
 }
 
-.backTrees{
+.Random{
+    position:absolute;
+}
+
+.background{
     position:absolute;
     height:100vh;
     width:unset;
+}
+
+.hang{
+    transform: scale(0.7);
+    top:-55px;
+}
+
+.wanted{
+    transform: translateY(-10vw);
+}
+
+.aboutBoard{
+    bottom:0px;
+}
+
+.workBoard{
+    bottom:0px;
+}
+
+.oil{
+    bottom:100px;
+}
+
+.chicken{
+    bottom:20px;
+}
+
+.decalCityBoard{
+    transform: scale(0.6);
+}
+
+.education{
+    transform: scale(0.6) translateY(10px);
+}
+
+.skills{
+    transform:translateY(230px);
+}
+
+.skills1{
+    transform:translateY(-80px) scale(0.9);
+}
+
+.frontEndBoard{
+    transform: translateX(50vw) scale(0.7) translateY(10px);
+    animation:animatefrontEndBoard 5s linear infinite;
+    animation-play-state: paused;
+}
+@keyframes animatefrontEndBoard{
+    100%{transform:translateX(-50vw)}
+}
+
+
+.educationBoard{
+    bottom:0px;
+}
+
+.crate1{
+    bottom:0px;
+}
+
+.crate2{
+    bottom:110px;
+}
+
+
+.backTrees{
     animation:animateBackTrees 10s linear infinite;
     animation-play-state: paused;
 }
@@ -31,9 +102,6 @@ section{
 }
 
 .frontTrees{
-    position:absolute;
-    height:100vh;
-    width:unset;
     animation:animateFrontTrees 8s linear infinite;
     animation-play-state: paused;
 }
@@ -42,9 +110,6 @@ section{
 }
 
 .backPlants{
-    position:absolute;
-    height:100vh;
-    width:unset;
     animation:animateBackPlants 6s linear infinite;
     animation-play-state: paused;
 }
@@ -53,9 +118,6 @@ section{
 }
 
 .ground{
-    position:absolute;
-    height:100vh;
-    width:unset;
     animation:animateGround 4s linear infinite;
     animation-play-state: paused;
 }
@@ -64,9 +126,6 @@ section{
 }
 
 .frontPlants{
-    position:absolute;
-    height:100vh;
-    width:unset;
     animation:animateFrontPlants 2s linear infinite;
     animation-play-state: paused;
 }
