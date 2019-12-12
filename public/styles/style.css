@@ -9,14 +9,12 @@ html {
 }
 
 body{
-    background:url(../AI/boxes.svg), linear-gradient(45deg,royalblue,goldenrod 70%);
+    background:url(../AI/boxes.svg), linear-gradient(45deg,dodgerblue,rgba(218, 165, 32, 1) 70%);
     background-blend-mode: color-burn;
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
     background-repeat:no-repeat;
-
-    /* fix this on mq. it does not look good on mobile   */
 }
 /*@@@@@@@@@@@@@@@@ Font Awesome Icons @@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -75,8 +73,9 @@ header{
 }
 
 button{
+    font-size:1vmax;
     width:18vmax;
-    height:6vmax;
+    height:5vmax;
     border:2px solid white;
     background:transparent;
     font-weight: bold;
@@ -257,6 +256,7 @@ section:nth-child(2):hover{
 /*@@@@@@@@@@@@@@@@ FOOTER @@@@@@@@@@@@@@@@@@@@@@*/
 
 footer{
+    padding:1vw 0;
     background:black;
     display:flex;
     flex-direction: column;
@@ -272,12 +272,12 @@ footer ul {
 }
 
 footer ul li {
-    margin:2vw 1vw 0vw 1vw;
+    margin:0vw 1vw 0vw 1vw;
 }
 
 
 footer p{
-    padding:2vh 0 2vh 0;
+    padding:2vw 0 0 0;
 }
 
 

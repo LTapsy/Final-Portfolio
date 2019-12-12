@@ -116,7 +116,7 @@ quote.style = "opacity:0;"
 var x = 0;
 function functScroll() {
     x++;
-    if(x == 20){
+    if(x == 10){
         frontEndFocused.style = "opacity:1; transition:0.9s; transform:translateY(0vh)"
         experience.style = "opacity:1; transition:0.9s; transform:translateY(0vh);"
         functskillSet1();

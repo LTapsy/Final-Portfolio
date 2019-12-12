@@ -279,8 +279,8 @@ footer p{
     }
     
     .projectImage{
-        width:60vmax;
-        height:60vmax;
+        width:200px;
+        height:200px;
         box-shadow: -20px -20px 50px 10px #000 inset,-5px -5px 50px 10px rgba(68, 68, 68, 0.8);
         background:url('../images/Planet/earth.jpg');
         background-size:cover;
@@ -303,16 +303,19 @@ footer p{
         display:flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
         transform:rotate(0deg) skew(0deg);
     }
 
     .projectImage2 img{
-        margin:5vw 1vw;
         width:85%;
         height:50vw;
-        border-radius:2vmax;
-        transition:0.4s;
-        box-shadow: -5px 5px 10px black;
+    }
+
+    .projectImage2 a{
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .blank{
