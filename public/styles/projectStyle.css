@@ -148,7 +148,7 @@ section:nth-child(1){
     width:200px;
     height:200px;
     box-shadow: -20px -20px 50px 10px #000 inset,-5px -5px 50px 10px rgba(68, 68, 68, 0.8);
-    background:url('../images/Planet/earth.jpg');
+    background:url('../images/Planet/earthsmall.jpg');
     background-size:cover;
     border-radius:50%;
     position: absolute;
