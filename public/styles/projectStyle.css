@@ -15,8 +15,6 @@ body{
     background-attachment: fixed;
     background-size:cover;
     background-repeat:no-repeat;
-
-    /* fix this on mq. it does not look good on mobile   */
 }
 /*@@@@@@@@@@@@@@@@ Font Awesome Icons @@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -48,7 +46,6 @@ section{
 
 section{
     padding:5vw;
-    /* height:80vh; */
     width:100%;
     display:flex;
     flex-direction: column;
@@ -70,7 +67,6 @@ button{
     border:2px solid white;
     background:transparent;
     font-weight: bold;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     transition: 0.4s;
     margin:2vw 2vw 2vw 0;
 }
@@ -92,7 +88,6 @@ section:nth-child(1){
 
 .projectHeading{
     color:white;
-    /* text-shadow: 0 0 10px black; */
 }
 
 .projectHeading{
@@ -117,9 +112,6 @@ section:nth-child(1){
     margin:-10vw 0 10vw 0;
 }
 
-/* fix this on mq, maybe make the planet a background instead?*/
-
-
 .projectInfo{
     padding:5vw;
     width:100%;
@@ -127,13 +119,11 @@ section:nth-child(1){
 }
 
 .projectTitle{
-    /* text-shadow: 0 0 10px black; */
     font-size:3vmax;
 }
 
 .projectDescription{
     font-size:2vmax;
-    /* text-shadow: 0 0 10px black; */
 }
 
 .buttonContainer{

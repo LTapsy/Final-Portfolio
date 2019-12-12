@@ -16,8 +16,6 @@ body{
     background-size:cover;
     background-repeat:no-repeat;
 }
-/*@@@@@@@@@@@@@@@@ Font Awesome Icons @@@@@@@@@@@@@@@@@@@@@@*/
-
 /*@@@@@@@@@@@@@@@@ MAIN @@@@@@@@@@@@@@@@@@@@@@*/
 
 main{
@@ -28,7 +26,6 @@ main{
 }
 
 section{
-    /* height:; */
     width:100%;
     display:flex;
     flex-direction: column;
@@ -44,7 +41,6 @@ section{
 
 /*@@@@@@@@@@@@@@@@ CONTACT @@@@@@@@@@@@@@@@@@@@@@*/
 
-/* svg overflow hidden */
 
 #contact{
     padding:5vw 15vw 10vw 15vw;
@@ -96,7 +92,6 @@ button{
 }
 
 button:hover{
-    /* background:linear-gradient(skyblue,dodgerblue); */
     border:2px solid skyblue;
     color:skyblue;
     padding:1vw 0;
@@ -188,7 +183,6 @@ footer p{
     }
 
     button:hover{
-        /* background:linear-gradient(skyblue,dodgerblue); */
         border:2px solid skyblue;
         color:skyblue;
         padding:2vh 0;

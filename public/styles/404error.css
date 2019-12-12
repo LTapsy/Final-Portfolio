@@ -14,12 +14,7 @@ title{
 }
 
 body{
-    background-image:radial-gradient( rgb(165, 165, 165), rgb(15, 15, 15)),url(../misc/car.jpg);
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
+    background:linear-gradient(royalblue,rebeccapurple);
 }
 
 h1{
