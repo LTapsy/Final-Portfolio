@@ -193,6 +193,14 @@ section:nth-child(1){
     visibility: hidden;
 }
 
+.projectImage2 a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+
 .projectImage2 img{
     margin:1vw;
     width:33vmax;
@@ -305,6 +313,7 @@ footer p{
     .projectImage2 img{
         width:85%;
         height:50vw;
+        margin:3vw;
     }
 
     .projectImage2 a{
@@ -312,6 +321,8 @@ footer p{
         justify-content: center;
         align-items: center;
     }
+
+   
 
     .blank{
         visibility: hidden;
