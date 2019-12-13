@@ -10,11 +10,7 @@ html {
 
 body{
     background:linear-gradient(dodgerblue, rebeccapurple);
-    background-blend-mode: color-burn;
-    background-position: center;
     background-attachment: fixed;
-    background-size:cover;
-    background-repeat:no-repeat;
 }
 /*@@@@@@@@@@@@@@@@ MAIN @@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -49,26 +45,65 @@ section{
 .contactHeading{
     margin:0 0 5vw 0;
     font-size:4vmax;
-    color:white;
+    color:snow;
     text-align:center;
 }
 
+.formCharacter{
+    z-index: -1;
+    position:absolute;
+}
+
+.head{
+    width:15vw;
+    top:5vw;
+    left:40vw;
+}
+
+.eyes{
+    width:3vw;
+    height:3vw;
+    top:10vw;
+    left:49.5vw;
+}
+
+
+.rightHand{
+    width:7vw;
+    top: 12.6vw;
+    left:35vw;
+    z-index: 1;
+}
+
+.leftHand{
+    width:7vw;
+    top: 12.6vw;
+    left:55vw;
+    z-index: 1;
+}
 
 form{
+    z-index: 0;
+    background:linear-gradient(dodgerblue, rebeccapurple);
+    background-attachment: fixed;
     border-radius:20px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 30px 20px 30px rgba(0, 0, 0, 0.3);
     padding:4vmax 2vmax 5vmax 2vmax;
     display:flex;
     flex-direction: column;
+    position:relative;
+    overflow: hidden;
 }
+
 
 input,label,textarea,button{
     border-radius: 10px;
-    color:white;
+    color:snow;
     resize:none;
     margin:1vw 2vw;
     font-size:1.5vmax;
 }
+
 
 input{
     border:2px solid lightgray;
@@ -85,9 +120,9 @@ textarea{
 
 button{
     background:transparent;
-    border:2px solid white;
+    border:2px solid snow;
     padding:1vw 0;
-    color:white;
+    color:snow;
     transition:0.4s;
 }
 
@@ -134,15 +169,20 @@ footer p{
     .contactHeading{
         margin:0 0 5vh 0;
         font-size:4vmax;
-        color:white;
+        color:snow;
         text-align:center;
     }
 
     .contactHeading{
         margin:0 0 5vh 0;
         font-size:4vmax;
-        color:white;
+        color:snow;
         text-align:center;
+    }
+
+    .formCharacter{
+        visibility: hidden;
+        transition: 0s;
     }
 
     form{
@@ -155,7 +195,7 @@ footer p{
 
     input,label,textarea,button{
         border-radius: 10px;
-        color:white;
+        color:snow;
         resize:none;
         margin:1vh 2vw;
         font-size:2vmax;
@@ -176,9 +216,9 @@ footer p{
 
     button{
         background:transparent;
-        border:2px solid white;
+        border:2px solid snow;
         padding:2vh 0;
-        color:white;
+        color:snow;
         transition:0.4s;
     }
 
@@ -205,10 +245,11 @@ footer p{
         justify-content: center;
         align-items: center;
     }
-    
+     
     footer ul li {
+        font-size: 2.5vmax;
         transform:scale(0.6);
-        margin:0vw 1vw 0vw 1vw;
+        margin:2vw 1vw 2vw 1vw;
     }
     
     

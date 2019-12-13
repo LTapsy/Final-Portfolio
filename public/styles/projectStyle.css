@@ -366,12 +366,13 @@ footer p{
     }
     
     footer ul li {
-        margin:2vw 1vw 0vw 1vw;
-        transform: scale(0.5);
+        font-size: 2.5vmax;
+        transform:scale(0.6);
+        margin:2vw 1vw 2vw 1vw;
     }
     
     
     footer p{
-        padding:2vw 0 2vw 0;
+        padding:2vw 0 0 0;
     }
 }
