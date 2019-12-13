@@ -332,11 +332,12 @@ footer p{
     }
 
     button{
+        font-size:14px;
         width:20vmax;
         height:6vmax;
         border:2px solid white;
         background:transparent;
-        font-weight: bold;
+        font-weight: normal;
     }
 
     .arrowDown{
