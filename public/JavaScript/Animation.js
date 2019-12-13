@@ -121,7 +121,6 @@ function functScroll() {
         experience.style = "opacity:1; transition:0.9s; transform:translateY(0vh);"
         functskillSet1();
     }
-    console.log(x);
 }
 
 function functskillSet1() {
