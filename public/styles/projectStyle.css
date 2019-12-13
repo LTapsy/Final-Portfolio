@@ -310,6 +310,15 @@ footer p{
         transform:rotate(0deg) skew(0deg);
     }
 
+    button{
+        font-size:14px;
+        width:20vmax;
+        height:6vmax;
+        border:2px solid white;
+        background:transparent;
+        font-weight: normal;
+    }
+
     .projectImage2 img{
         width:85%;
         height:50vw;
