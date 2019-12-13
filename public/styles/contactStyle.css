@@ -186,8 +186,9 @@ footer p{
     }
 
     form{
+        background:transparent;
         border-radius:20px;
-        box-shadow: 0 0 0;
+        box-shadow:unset;
         padding:0;
         display:flex;
         flex-direction: column;
