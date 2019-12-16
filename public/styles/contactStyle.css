@@ -205,14 +205,16 @@ footer p{
     input{
         border:2px solid lightgray;
         width:70vw;
-        padding:.5vw;
+        padding:1.5vw .5vw;
+        color:black;
     }
 
     textarea{
         border:2px solid lightgray;
         width:70vw;
         height:30vh;
-        padding:.5vw;
+        padding:1.5vw .5vw;
+        color:black;
     }
 
     button{
@@ -220,14 +222,16 @@ footer p{
         border:2px solid snow;
         padding:2vh 0;
         color:snow;
+        font-weight: bold;
         transition:0.4s;
     }
 
     button:hover{
         border:2px solid skyblue;
         color:skyblue;
-        padding:2vh 0;
+        font-weight: bold;
         transition:0.4s;
+        padding:2vh 0;
     }
 
      
