@@ -406,6 +406,10 @@ footer p{
         background:rgba(0, 0, 0, 0.500);
     }
 
+    .gameSourceCode{
+        background: transparent;
+    }
+
     footer{
         padding:1vw 0;
         background:black;
