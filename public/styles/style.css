@@ -9,8 +9,8 @@ html {
 }
 
 body{
-    /* background:url(../AI/boxes.svg), linear-gradient(45deg,dodgerblue,rgba(218, 165, 32, 1) 70%); */
-    background:url(https://picsum.photos/id/249/3000/2000);
+    background:url(../AI/boxes.svg), linear-gradient(45deg,dodgerblue,rgba(218, 165, 32, 1) 70%);
+    /* background:url(https://picsum.photos/id/249/3000/2000); */
     background-position: center;
     background-attachment: fixed;
     background-size:cover;
@@ -284,7 +284,8 @@ footer p{
     body{}
 
     header{
-        background:url(https://picsum.photos/id/249/3000/2000);
+        /* background:url(https://picsum.photos/id/249/3000/2000); */
+        background:url(../AI/boxes.svg), linear-gradient(45deg,dodgerblue,rgba(218, 165, 32, 1) 70%);
         background-position: center;
         background-attachment: fixed;
         background-size:cover;
