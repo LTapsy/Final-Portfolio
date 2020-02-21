@@ -1,6 +1,6 @@
 *{
     font-family: 'Raleway', sans-serif;
-    color:snow;
+    color:white;
     cursor:default;
 }
 
@@ -9,8 +9,8 @@ html {
 }
 
 body{
-    background:linear-gradient(dodgerblue, rebeccapurple);
-    background-attachment: fixed;
+    /* background:linear-gradient(dodgerblue, rebeccapurple);
+    background-attachment: fixed; */
 }
 /*@@@@@@@@@@@@@@@@ MAIN @@@@@@@@@@@@@@@@@@@@@@*/
 
@@ -43,9 +43,9 @@ section{
 }
 
 .contactHeading{
-    margin:0 0 5vw 0;
+    margin:0 0 15vw 0;
     font-size:4vmax;
-    color:snow;
+    color:#1d1d1d;
     text-align:center;
 }
 
@@ -56,35 +56,36 @@ section{
 
 .head{
     width:15vw;
-    top:5vw;
+    top:15vw;
     left:40vw;
 }
 
 .eyes{
     width:3vw;
     height:3vw;
-    top:10vw;
+    top:20vw;
     left:49.5vw;
 }
 
 
 .rightHand{
     width:7vw;
-    top: 12.6vw;
+    top: 22.6vw;
     left:35vw;
     z-index: 1;
 }
 
 .leftHand{
     width:7vw;
-    top: 12.6vw;
+    top: 22.6vw;
     left:55vw;
     z-index: 1;
 }
 
 form{
     z-index: 0;
-    background:linear-gradient(dodgerblue, rebeccapurple);
+    /* background:linear-gradient(dodgerblue, rebeccapurple); */
+    background:white;
     background-attachment: fixed;
     border-radius:20px;
     box-shadow: 30px 20px 30px rgba(0, 0, 0, 0.3);
@@ -98,7 +99,7 @@ form{
 
 input,label,textarea,button{
     border-radius: 10px;
-    color:snow;
+    color:#1d1d1d;
     resize:none;
     margin:1vw 2vw;
     font-size:1.5vmax;
@@ -120,15 +121,15 @@ textarea{
 
 button{
     background:transparent;
-    border:2px solid snow;
+    border:2px solid lightgray;
     padding:1vw 0;
-    color:snow;
+    color:#1d1d1d;
     transition:0.4s;
 }
 
 button:hover{
-    border:2px solid skyblue;
-    color:skyblue;
+    border:2px solid #1d1d1d;
+    color:#1d1d1d;
     padding:1vw 0;
     transition:0.4s;
 }
@@ -169,14 +170,14 @@ footer p{
     .contactHeading{
         margin:0 0 5vh 0;
         font-size:4vmax;
-        color:snow;
+        color:#1d1d1d;
         text-align:center;
     }
 
     .contactHeading{
         margin:0 0 5vh 0;
         font-size:4vmax;
-        color:snow;
+        color:#1d1d1d;
         text-align:center;
     }
 
@@ -196,7 +197,7 @@ footer p{
 
     input,label,textarea,button{
         border-radius: 10px;
-        color:snow;
+        color:#1d1d1d;
         resize:none;
         margin:1vh 2vw;
         font-size:2vmax;
@@ -219,16 +220,16 @@ footer p{
 
     button{
         background:transparent;
-        border:2px solid snow;
+        border:2px solid lightgray;
         padding:2vh 0;
-        color:snow;
+        color:#1d1d1d;
         font-weight: bold;
         transition:0.4s;
     }
 
     button:hover{
-        border:2px solid skyblue;
-        color:skyblue;
+        border:2px solid #1d1d1d;
+        color:#1d1d1d;
         font-weight: bold;
         transition:0.4s;
         padding:2vh 0;
@@ -258,6 +259,6 @@ footer p{
     
     
     footer p{
-        padding:2vw 0 0 0;
+        padding:2vw 0 30px 0;
     }
 }

@@ -6,10 +6,10 @@ var idle = 0;
 
 function eyesBlink(){
     if(idle<=5){
-        head.style = "top:5.3vw; transition:0.2s;"
+        head.style = "top:15.3vw; transition:0.2s;"
         idle++;
     }else{
-        head.style = "top:5vw; transition:0.2s;"
+        head.style = "top:15vw; transition:0.2s;"
         idle=0;
     }
 
@@ -18,7 +18,7 @@ function eyesBlink(){
         blink++;
         setTimeout(eyesBlink, 200);
     }else{
-        eyes.style = "height:0vw; top:12vw; transition:0.2s;"
+        eyes.style = "height:0vw; top:22vw; transition:0.2s;"
         blink=0;
         setTimeout(eyesBlink, 200);
     }

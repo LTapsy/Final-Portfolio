@@ -290,19 +290,19 @@ function functskillSet10FloatDown() {
 
 // Second Section  ------------------------------------------------------------------------
 
-const character = document.querySelector('.character');
-const character2 = document.querySelector('.character2');
-var idle = 0;
+// const character = document.querySelector('.character');
+// const character2 = document.querySelector('.character2');
+// var idle = 0;
 
-function functIdle() {
-    if(idle==0){
-        character.src = "PNG/character2.png"
-        idle++;
-        setTimeout(functIdle, 200);
-    }
-    else{
-        character.src = "PNG/character.png"
-        idle=0;
-        setTimeout(functIdle, 200);
-    }
-}setTimeout(functIdle, 500);
+// function functIdle() {
+//     if(idle==0){
+//         // character.src = "PNG/character2.png"
+//         idle++;
+//         setTimeout(functIdle, 200);
+//     }
+//     else{
+//         // character.src = "PNG/character.png"
+//         idle=0;
+//         setTimeout(functIdle, 200);
+//     }
+// }setTimeout(functIdle, 500);

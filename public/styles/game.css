@@ -33,6 +33,7 @@ section{
 
 .Random{
     position:absolute;
+    visibility: hidden !important;
 }
 
 .background{
@@ -415,6 +416,6 @@ footer p{
     
     
     footer p{
-        padding:2vw 0 0 0;
+        padding:2vw 0 30px 0;
     }
 }
