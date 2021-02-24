@@ -68,9 +68,7 @@ button:hover{
 
 
 .TuluImage{
-    /* position:absolute;
-    top:0;
-    right:0; */
+    margin:0 0 0 150px !important;
 }
 
 
@@ -107,8 +105,20 @@ section:nth-child(1){
     flex-direction: row;
 }
 
+.recentProject img{
+    margin:0 150px 0 0 ;
+}
+
 .covidProject{
+    margin:0px 0 150px 0;
+}
+
+.covidImage{
     margin:150px 0;
+}
+
+.projectCovid{
+    padding:0 0 0 30px impo !important;
 }
 
 .projectPlanet{
@@ -124,7 +134,7 @@ section:nth-child(1){
     z-index:1;
 }
 
-.projectTulu,.projectCovid{
+.projectTulu{
     padding:0;
 }
 
@@ -382,7 +392,13 @@ footer p{
     }
 
     .TuluImage{
-        width:300px;
+        width:300px !important;
+        margin:0 !important;
+    }
+
+    .CovidImage{
+        width:300px !important;
+        margin:50px 0 0 0 !important;
     }
 
     .projectTulu{
