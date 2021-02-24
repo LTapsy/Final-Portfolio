@@ -66,6 +66,14 @@ button:hover{
     transition: 0.4s;
 }
 
+
+.TuluImage{
+    /* position:absolute;
+    top:0;
+    right:0; */
+}
+
+
 /* --------------Planetarium---------------------- */
 
 section:nth-child(1){
@@ -94,6 +102,15 @@ section:nth-child(1){
     align-items: center;
 }
 
+.recentProject{
+    height:80vh;
+    flex-direction: row;
+}
+
+.covidProject{
+    margin:150px 0;
+}
+
 .projectPlanet{
     background:url();
     background-size:cover;
@@ -105,6 +122,10 @@ section:nth-child(1){
     padding:5vw;
     width:100%;
     z-index:1;
+}
+
+.projectTulu,.projectCovid{
+    padding:0;
 }
 
 .projectTitle{
@@ -354,7 +375,36 @@ footer p{
         text-shadow: 0 0 10px black;
         font-size:32px;
     }
-    
+
+    .recentProject{
+        flex-direction: column;
+        height:unset;
+    }
+
+    .TuluImage{
+        width:300px;
+    }
+
+    .projectTulu{
+        padding:0 !important;
+        text-align: center;
+        width:300px !important;
+    }
+
+    .covidProject div{
+        order:2;
+    }
+
+    .covidProject img{
+        order:1;
+    }
+
+    .projectCovid{
+        padding:0 !important;
+        text-align: center;
+        width:300px !important;
+    }
+
     .projectPlanetEarth{
         visibility:visible;
     }
