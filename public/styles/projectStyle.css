@@ -107,10 +107,11 @@ section:nth-child(1){
 
 .recentProject img{
     margin:0 150px 0 0 ;
+    width:50vw;
 }
 
 .covidProject{
-    margin:0px 0 150px 0;
+    margin:5vh 0;
 }
 
 .covidImage{
